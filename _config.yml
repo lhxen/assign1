@@ -3,6 +3,11 @@ description: A showcase of my work and skills
 baseurl: "/assign1"
 url: "https://lhxen.github.io"
 
+# Theme settings
+theme: minima
+sass:
+  style: compressed
+
 # Build settings
 markdown: kramdown
 plugins:
