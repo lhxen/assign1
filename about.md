@@ -3,8 +3,6 @@ layout: page
 title: About
 ---
 
-# About Me
-
 I am a passionate software developer with expertise in various programming languages and technologies. My journey in software development began several years ago, and I've been continuously learning and growing ever since.
 
 ## Skills
