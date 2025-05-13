@@ -23,22 +23,22 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #18212f;
-    background-color: #fff8f2;
+    color: #1e293b;
+    background-color: #fff5f2;
 }
 
 /* Modern Container */
 .container {
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 2rem;
 }
 
 /* Header Styles */
 .site-header {
     background: #ffffff;
-    padding: 1rem 0;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     position: fixed;
     width: 100%;
     top: 0;
@@ -54,86 +54,87 @@ body {
 .site-title {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #ff4d1c !important;
+    color: #ff4b11 !important;
     text-decoration: none;
 }
 
 .site-nav {
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .site-nav .page-link {
-    color: #18212f;
+    color: #1e293b;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .site-nav .page-link:hover {
-    color: #ff4d1c;
+    color: #ff4b11;
 }
 
 /* Main content */
 .page-content {
-    padding-top: 80px;
-    min-height: calc(100vh - 160px);
+    padding-top: 6rem;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, rgba(255,77,28,0.1), rgba(255,195,0,0.1));
-    padding: 6rem 0;
     text-align: center;
+    padding: 4rem 0;
+    background-color: #fff;
 }
 
 .hero h1 {
     font-size: 3.5rem;
-    color: #ff4d1c;
+    color: #1e293b;
     margin-bottom: 1.5rem;
     line-height: 1.2;
 }
 
 .hero p {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     color: #64748b;
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto 2rem;
 }
 
 /* Projects section */
 .projects-section {
     padding: 4rem 0;
+    background-color: #fff5f2;
 }
 
 .projects-section h2 {
-    text-align: center;
     font-size: 2.5rem;
-    color: #ff4d1c;
+    color: #1e293b;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
 .project-card {
     background: #ffffff;
-    border-radius: 16px;
+    border-radius: 1rem;
     overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-    transition: transform 0.4s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 .project-image {
     height: 200px;
-    background: linear-gradient(135deg, #ff4d1c, #ffc300);
+    background: linear-gradient(45deg, #ff4b11, #ffba08);
 }
 
 .project-content {
@@ -141,63 +142,103 @@ body {
 }
 
 .project-content h3 {
-    font-size: 1.6rem;
-    color: #ff4d1c;
-    margin-bottom: 1rem;
+    color: #1e293b;
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .project-content p {
     color: #64748b;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
-.project-technologies {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
+/* Expertise Section */
+.expertise-section {
+    padding: 4rem 0;
+    background-color: #fff;
 }
 
-.project-technologies span {
-    background: rgba(255,77,28,0.1);
-    color: #ff4d1c;
-    padding: 0.4rem 1rem;
-    border-radius: 20px;
-    font-size: 0.9rem;
+.expertise-section h2 {
+    font-size: 2.5rem;
+    color: #1e293b;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.expertise-card {
+    text-align: center;
+    padding: 2rem;
+}
+
+.expertise-card h3 {
+    color: #1e293b;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.expertise-card p {
+    color: #64748b;
+}
+
+/* Call to Action */
+.cta-section {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #fff5f2;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    color: #1e293b;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    color: #64748b;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
 }
 
 /* Buttons */
-.button {
+.button, 
+.learn-more {
     display: inline-block;
-    padding: 0.8rem 1.5rem;
-    border-radius: 25px;
-    background: #ff4d1c;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    background: #ff4b11;
     color: white !important;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
 }
 
-.button:hover {
+.button:hover,
+.learn-more:hover {
     background: #e63900;
     transform: translateY(-2px);
 }
 
-.button-outline {
-    background: transparent;
-    border: 2px solid #ff4d1c;
-    color: #ff4d1c !important;
-}
-
-.button-outline:hover {
-    background: #ff4d1c;
+.get-in-touch {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    background: #ff4b11;
     color: white !important;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
 
-.button-group {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+.get-in-touch:hover {
+    background: #e63900;
+    transform: translateY(-2px);
 }
 
 /* Footer */
@@ -209,26 +250,57 @@ body {
     border-top: 1px solid rgba(0,0,0,0.05);
 }
 
+/* Blog Section */
+.post-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.post-item {
+    margin-bottom: 2rem;
+}
+
+.post-link {
+    color: #1e293b;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.post-meta {
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .project-grid,
+    .expertise-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-    
-    .hero p {
-        font-size: 1.2rem;
-    }
-    
     .site-nav {
         display: none;
     }
-    
-    .button-group {
-        flex-direction: column;
-        align-items: center;
+
+    .hero h1 {
+        font-size: 2.5rem;
     }
-    
-    .project-grid {
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .project-grid,
+    .expertise-grid {
         grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 0 1rem;
     }
 } 
