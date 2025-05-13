@@ -10,9 +10,19 @@ I'm always interested in new projects and opportunities. Feel free to reach out!
 
 ## Get in Touch
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Name](https://linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub](https://github.com/yourusername)
+<div class="contact-list">
+  <ul>
+    <li>
+      <strong>Email:</strong> <a href="mailto:lvhcene@gmail.com">lvhcene@gmail.com</a>
+    </li>
+    <li>
+      <strong>GitHub:</strong> <a href="https://github.com/lhxen" target="_blank">github.com/lhxen</a>
+    </li>
+    <li>
+      <strong>LinkedIn:</strong> <a href="https://github.com/lhxen" target="_blank">View My Profile</a>
+    </li>
+  </ul>
+</div>
 
 ## Location
 
@@ -30,5 +40,7 @@ If you have a project in mind, please include the following information in your 
 - Timeline
 - Budget range
 - Any specific requirements
+
+<a href="mailto:lvhcene@gmail.com" class="button">Send me an email</a>
 
 I'll get back to you within 24-48 hours! 

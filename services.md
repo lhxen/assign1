@@ -8,28 +8,52 @@ permalink: /services/
 
 I offer a range of professional development services to help bring your ideas to life.
 
-## Web Development
-- Custom website development
-- E-commerce solutions
-- Content Management Systems
-- Website maintenance and updates
+<div class="service-section">
+  <h2>Web Development</h2>
+  <ul>
+    <li>Custom website development</li>
+    <li>E-commerce solutions</li>
+    <li>Content Management Systems</li>
+    <li>Website maintenance and updates</li>
+  </ul>
+  <a href="/contact" class="button">Request Service</a>
+</div>
 
-## Mobile Development
-- iOS and Android app development
-- Cross-platform solutions
-- App maintenance and updates
-- Performance optimization
+<div class="service-section">
+  <h2>Mobile Development</h2>
+  <ul>
+    <li>iOS and Android app development</li>
+    <li>Cross-platform solutions</li>
+    <li>App maintenance and updates</li>
+    <li>Performance optimization</li>
+  </ul>
+  <a href="/contact" class="button">Request Service</a>
+</div>
 
-## Consulting
-- Technical architecture planning
-- Code review and optimization
-- Technology stack selection
-- Performance optimization
+<div class="service-section">
+  <h2>Consulting</h2>
+  <ul>
+    <li>Technical architecture planning</li>
+    <li>Code review and optimization</li>
+    <li>Technology stack selection</li>
+    <li>Performance optimization</li>
+  </ul>
+  <a href="/contact" class="button">Request Service</a>
+</div>
 
-## Training
-- One-on-one mentoring
-- Team training sessions
-- Technical workshops
-- Code quality best practices
+<div class="service-section">
+  <h2>Training</h2>
+  <ul>
+    <li>One-on-one mentoring</li>
+    <li>Team training sessions</li>
+    <li>Technical workshops</li>
+    <li>Code quality best practices</li>
+  </ul>
+  <a href="/contact" class="button">Request Service</a>
+</div>
 
-Contact me to discuss how I can help with your next project! 
+<div class="contact-cta">
+  <h2>Ready to Start?</h2>
+  <p>Contact me to discuss how I can help with your next project!</p>
+  <a href="/contact" class="button">Get in Touch</a>
+</div> 

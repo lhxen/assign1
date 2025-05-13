@@ -8,22 +8,42 @@ permalink: /projects/
 
 Here are some of the key projects I've worked on:
 
-## E-commerce Platform
-A full-featured online shopping platform built with React and Node.js.
-- **Technologies**: React, Node.js, MongoDB
-- **Features**: User authentication, product catalog, shopping cart, payment integration
+<div class="project-card">
+  <h2>E-commerce Platform</h2>
+  <p>A full-featured online shopping platform built with React and Node.js.</p>
+  <ul>
+    <li><strong>Technologies:</strong> React, Node.js, MongoDB</li>
+    <li><strong>Features:</strong> User authentication, product catalog, shopping cart, payment integration</li>
+  </ul>
+  <a href="https://github.com/lhxen" class="button" target="_blank">View Project</a>
+</div>
 
-## Mobile Fitness App
-A cross-platform mobile application for fitness tracking.
-- **Technologies**: React Native, Firebase
-- **Features**: Workout tracking, progress monitoring, social sharing
+<div class="project-card">
+  <h2>Mobile Fitness App</h2>
+  <p>A cross-platform mobile application for fitness tracking.</p>
+  <ul>
+    <li><strong>Technologies:</strong> React Native, Firebase</li>
+    <li><strong>Features:</strong> Workout tracking, progress monitoring, social sharing</li>
+  </ul>
+  <a href="https://github.com/lhxen" class="button" target="_blank">View Project</a>
+</div>
 
-## Portfolio Website
-A responsive portfolio website built with Jekyll and GitHub Pages.
-- **Technologies**: Jekyll, HTML5, CSS3
-- **Features**: Responsive design, blog functionality, contact form
+<div class="project-card">
+  <h2>Portfolio Website</h2>
+  <p>A responsive portfolio website built with Jekyll and GitHub Pages.</p>
+  <ul>
+    <li><strong>Technologies:</strong> Jekyll, HTML5, CSS3</li>
+    <li><strong>Features:</strong> Responsive design, blog functionality, contact form</li>
+  </ul>
+  <a href="https://github.com/lhxen" class="button" target="_blank">View Project</a>
+</div>
 
-## Weather Dashboard
-A real-time weather monitoring dashboard.
-- **Technologies**: JavaScript, OpenWeather API
-- **Features**: Current weather, 5-day forecast, location search 
+<div class="project-card">
+  <h2>Weather Dashboard</h2>
+  <p>A real-time weather monitoring dashboard.</p>
+  <ul>
+    <li><strong>Technologies:</strong> JavaScript, OpenWeather API</li>
+    <li><strong>Features:</strong> Current weather, 5-day forecast, location search</li>
+  </ul>
+  <a href="https://github.com/lhxen" class="button" target="_blank">View Project</a>
+</div> 
