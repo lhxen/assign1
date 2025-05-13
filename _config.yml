@@ -1,14 +1,23 @@
 title: My Portfolio
-description: A professional portfolio website
-baseurl: ""
-url: ""
+description: A showcase of my work and skills
+baseurl: "/assign1"
+url: "https://lhxen.github.io"
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - .github/
+  - README.md
 
 # Navigation
 header_pages:
