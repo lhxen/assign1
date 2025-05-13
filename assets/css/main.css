@@ -23,6 +23,8 @@ body {
     line-height: 1.6;
     color: var(--text);
     background-color: var(--surface);
+    margin: 0;
+    padding: 0;
 }
 
 /* Modern Container */
@@ -34,28 +36,50 @@ body {
 
 /* Header Styles */
 .site-header {
-    background: #fff;
+    background: var(--background);
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    padding: 1rem 0;
 }
 
 .site-header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.site-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.site-nav .page-link {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.site-nav .page-link:hover {
+    color: var(--primary);
 }
 
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, rgba(99,102,241,0.1), rgba(168,85,247,0.1));
-    padding: 120px 0 80px;
+    padding: 8rem 0 4rem;
     text-align: center;
-    border-radius: 0 0 30px 30px;
-    margin-bottom: 60px;
+    margin-bottom: 4rem;
 }
 
 .hero h1 {
@@ -70,6 +94,20 @@ body {
     color: var(--text-light);
     max-width: 600px;
     margin: 0 auto 2rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 2.5rem;
+    color: var(--text);
+    text-align: center;
+    margin: 4rem 0 2rem;
 }
 
 /* Project Cards */
@@ -96,13 +134,12 @@ body {
 .project-image {
     height: 200px;
     background: linear-gradient(135deg, var(--primary), var(--accent));
-    margin-bottom: 1.5rem;
 }
 
-.project-card h2 {
+.project-card h3 {
     font-size: 1.5rem;
     color: var(--primary);
-    margin: 0 1.5rem 1rem;
+    margin: 1.5rem;
 }
 
 .project-card p {
@@ -159,6 +196,18 @@ body {
 
 .service-icon svg {
     color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.service-section h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.service-section p {
+    color: var(--text-light);
 }
 
 /* Modern Buttons */
@@ -169,10 +218,6 @@ body {
     font-weight: 500;
     text-decoration: none;
     transition: all 0.3s ease;
-    margin: 0.5rem;
-}
-
-.button {
     background: var(--primary);
     color: white;
 }
@@ -197,9 +242,8 @@ body {
 /* Contact Section */
 .contact-section {
     background: linear-gradient(135deg, rgba(99,102,241,0.1), rgba(168,85,247,0.1));
-    padding: 4rem 2rem;
+    padding: 4rem 0;
     text-align: center;
-    border-radius: 30px;
     margin: 4rem 0;
 }
 
@@ -215,10 +259,23 @@ body {
     margin-bottom: 2rem;
 }
 
+/* Footer */
+.site-footer {
+    background: var(--background);
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--text-light);
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.5rem;
+    }
+    
+    .site-nav {
+        display: none;
     }
     
     .project-grid, .service-grid {
@@ -227,5 +284,10 @@ body {
     
     .container {
         padding: 0 1rem;
+    }
+    
+    .button-group {
+        flex-direction: column;
+        align-items: center;
     }
 } 

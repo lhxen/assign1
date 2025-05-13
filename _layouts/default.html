@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
+    <!-- Load Jekyll's default styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!-- Load our custom styles -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <!-- Load Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 </head>
 <body>
@@ -21,7 +25,7 @@
         </div>
     </header>
 
-    <main class="container">
+    <main>
         {{ content }}
     </main>
 
