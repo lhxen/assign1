@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    <!-- Load Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
 </head>
 <body>
     <header class="site-header">
         <div class="container">
-            <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+            <a href="{{ '/' | relative_url }}" class="site-title">My Portfolio</a>
             <nav class="site-nav">
                 <a href="{{ '/about' | relative_url }}" class="page-link">About</a>
                 <a href="{{ '/projects' | relative_url }}" class="page-link">Projects</a>
@@ -21,13 +19,13 @@
         </div>
     </header>
 
-    <div class="page-content">
+    <main class="page-content">
         {{ content }}
-    </div>
+    </main>
 
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+            <p>&copy; {{ site.time | date: '%Y' }} My Portfolio. All rights reserved.</p>
         </div>
     </footer>
 </body>
