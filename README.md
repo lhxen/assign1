@@ -20,8 +20,8 @@ gem install bundler jekyll
 
 2. Clone this repository
 ```bash
-git clone https://github.com/yourusername/yourusername.github.io.git
-cd yourusername.github.io
+git clone https://github.com/lhxen/assign1.git
+cd assign1
 ```
 
 3. Install dependencies
@@ -42,4 +42,4 @@ This site is automatically deployed to GitHub Pages when changes are pushed to t
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE). 
+This project is open source and available under the [MIT License](LICENSE).
