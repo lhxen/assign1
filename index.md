@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Welcome
 ---
 
@@ -26,7 +26,6 @@ title: Welcome
                 <span>React</span>
                 <span>Node.js</span>
             </div>
-            <a href="/projects" class="button">Learn More</a>
         </div>
 
         <div class="project-card">
@@ -37,7 +36,6 @@ title: Welcome
                 <span>React Native</span>
                 <span>Firebase</span>
             </div>
-            <a href="/projects" class="button">Learn More</a>
         </div>
 
         <div class="project-card">
@@ -48,7 +46,6 @@ title: Welcome
                 <span>Figma</span>
                 <span>UI/UX</span>
             </div>
-            <a href="/projects" class="button">Learn More</a>
         </div>
     </div>
 
